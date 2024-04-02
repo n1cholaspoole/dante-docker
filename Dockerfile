@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add dante-server --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ --allow-untrusted
+RUN apk add dante-server --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/community/ --allow-untrusted
 
 RUN rm -rf /var/cache/apk/*
 
